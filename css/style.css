@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+button {
+    padding: 15px 20px;
+    cursor: pointer;
+    background-color: greenyellow;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: .3s ease;
+}
+
+button:hover {
+    border: 2px solid greenyellow;
+    box-shadow: 0 0 5px greenyellow;
+    color: greenyellow;
+    background-color: transparent;
+}
